@@ -1,0 +1,9 @@
+* {
+    --fixed-height: 700px;
+}
+
+.fixedHeightCarousel img {
+    width: auto;
+    height: var(--fixed-height);
+    max-height: var(--fixed-height);
+  }
