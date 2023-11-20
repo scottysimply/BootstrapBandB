@@ -39,7 +39,7 @@
 
 @media screen and (max-width: 750px) {
     iframe {
-        max-width: auto !important;
+        max-width: 95vw !important;
         width: auto !important;
         height: auto !important;
     }
