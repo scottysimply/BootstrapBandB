@@ -17,7 +17,7 @@
     <title>Sedona Views</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark mb-3">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Sedona Views</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,18 +26,18 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              <a class="nav-link" href="reserve.html">Get In Touch</a>
+              <a class="nav-link" href="form.html">Get In Touch</a>
             </div>
           </div>
         </div>
       </nav>
 
-    <div class="container">
+    <div class="container text-center">
         
-        <h2 class="text-center">Sedona Views</h2>
-        <p class="text-center">Rocks are pretty cool. They make the ground beneath your feet. They reach high into the sky. At Sedona Views, you're able to wake up to a scenic view of Bell Rock's 5,000 feet summit. We offer amenities such as rooms with a view, a pool, and full-size bathrooms. We also have a dining hall for meetings, and a kitchen for guest use.</p>
+        <h2>Sedona Views</h2>
+        <p>Rocks are pretty cool. They make the ground beneath your feet. They reach high into the sky. At Sedona Views, you're able to wake up to a scenic view of Bell Rock's 5,000 feet summit. We offer amenities such as rooms with a view, a pool, and full-size bathrooms. We also have a dining hall for meetings, and a kitchen for guest use.</p>
 
-        <div id="carouselExampleAutoplaying" class="carousel slide fixedHeightCarousel" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide fixedHeightCarousel align-self-center" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -56,14 +56,48 @@
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon bg-opacity-75 bg-dark rounded-3" aria-hidden="true"></span>
+              <span class="carousel-control-prev-icon bg-dark rounded-3" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon bg-opacity-75 bg-dark rounded-3" aria-hidden="true"></span>
+              <span class="carousel-control-next-icon bg-dark rounded-3" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-          </div>
+        </div>
+
+        <div class="container row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-around mb-5">
+
+            <div class="card col mt-3 p-2" style="width: 18rem;">
+                <img src="Images/indoors_2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Booking</h5>
+                    <p class="card-text">We have 6 rooms available for booking, all with beautiful views of Sedona's rock formations. No room is the same!</p>
+                </div>
+              </div>
+
+            <div class="card col mt-3 p-2" style="width: 18rem;">
+                <img src="Images/bell-rock.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bell Rock</h5>
+                    <p class="card-text">Situated only a few miles from Bell Rock, you can hike or appreciate the view from your room.</p>
+                </div>
+            </div>
+
+            <div class="card col mt-3 p-2" style="width: 18rem;">
+                <img src="Images/close_up.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Contact Information</h5>
+                    <p class="card-text">Get in touch to schedule a room! We will get back to you within 5 business days.</p>
+                    <a href="form.html" class="btn btn-info" role="button">Contact Us</a>
+                </div>
+            </div>
+        </div>
+
     </div>
+
+    <div class="footer text-center fixed-bottom bg-dark text-light"> 
+        <p>Scott Patty &copy; 2023</p>
+    </div>
+
 </body>
 </html>
